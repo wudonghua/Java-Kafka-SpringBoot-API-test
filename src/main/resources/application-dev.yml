@@ -1,0 +1,8 @@
+Riven:
+  kafka:
+   producer:
+    bootstrapServers: 10.66.30.205:9092,10.66.30.206:9092
+   consumer:
+    bootstrapServers: 10.66.30.205:9092,10.66.30.206:9092
+    groupId: group_test #必填
+    topics[0]: topic-test #必填
